@@ -4,7 +4,7 @@
 This is my CV built using semantic HTML.
 
 ## Live Project 
-https://github.com/BeaLennon/BeaLennon.io/html-cv/
+https://roadmap.sh/projects/single-page-cv
 
 ## Features 
 -Semantic HTML
