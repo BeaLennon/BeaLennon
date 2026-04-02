@@ -1,16 +1,13 @@
-## Hi there 👋
+# HTML CV Project
 
-<!--
-**BeaLennon/BeaLennon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Description 
+This is my CV built using semantic HTML.
 
-Here are some ideas to get you started:
+## Live Project 
+https://github.com/BeaLennon/BeaLennon
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Features 
+-Semantic HTML
+-SEO meta tags
+-Open Graph tags
+-Favicon
