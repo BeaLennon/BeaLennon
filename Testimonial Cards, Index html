@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testimonials</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section class="testimonials">
+    <h1>What People Say</h1>
+
+    <div class="cards">
+
+      <!-- Card 1 -->
+      <div class="card">
+        <p class="quote">
+          "This service was amazing! Highly recommend to everyone."
+        </p>
+
+        <div class="user">
+          <img src="https://via.placeholder.com/50" alt="User">
+          <div>
+            <h3>John Doe</h3>
+            <span>Client</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <p class="quote">
+          "Very professional and delivered on time. Great experience!"
+        </p>
+
+        <div class="user">
+          <img src="https://via.placeholder.com/50" alt="User">
+          <div>
+            <h3>Sarah Smith</h3>
+            <span>Customer</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <p class="quote">
+          "Excellent work and great communication throughout the project."
+        </p>
+
+        <div class="user">
+          <img src="https://via.placeholder.com/50" alt="User">
+          <div>
+            <h3>Michael Lee</h3>
+            <span>Client</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
