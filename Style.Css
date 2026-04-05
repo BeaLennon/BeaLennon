@@ -1,0 +1,167 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variables (for future dark mode) */
+:root {
+  --primary-color: #222;
+  --secondary-color: #f4f4f4;
+  --text-color: #333;
+  --accent-color: #555;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background: var(--secondary-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* Container */
+main {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header + Navigation */
+header {
+  background: var(--primary-color);
+  color: white;
+}
+
+/* Flexbox Navigation */
+nav {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+nav h1 {
+  font-size: 1.5rem;
+}
+
+/* Navigation Links */
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 6px 10px;
+}
+
+nav ul li a:hover {
+  background: var(--accent-color);
+  border-radius: 5px;
+}
+
+/* Sections (Card Layout) */
+section {
+  background: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Headings */
+h2 {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* Articles */
+article {
+  margin-bottom: 15px;
+}
+
+/* Lists */
+ul {
+  padding-left: 20px;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px;
+  border: none;
+  background: var(--primary-color);
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background: var(--accent-color);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: var(--primary-color);
+  color: white;
+  padding: 15px;
+}
+
+/* ========================= */
+/* RESPONSIVE DESIGN         */
+/* ========================= */
+
+/* Tablet */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  section {
+    padding: 15px;
+  }
+
+  nav h1 {
+    font-size: 1.2rem;
+  }
+}
