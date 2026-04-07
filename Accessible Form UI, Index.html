@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Form UI</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<div class="container">
+  <form class="form" aria-labelledby="form-title">
+
+    <h2 id="form-title">Create Account</h2>
+
+    <!-- Progress Bar -->
+    <div class="progress-container" aria-hidden="true">
+      <div class="progress-bar"></div>
+    </div>
+
+    <!-- Full Name -->
+    <div class="form-group">
+      <label for="fullname">Full Name</label>
+      <input 
+        type="text" 
+        id="fullname" 
+        name="fullname" 
+        required 
+        aria-required="true"
+      >
+      <small class="error">Error message here</small>
+    </div>
+
+    <!-- Email -->
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input 
+        type="email" 
+        id="email" 
+        name="email" 
+        required 
+        aria-required="true"
+      >
+      <small class="error">Error message here</small>
+    </div>
+
+    <!-- Password -->
+    <div class="form-group">
+      <label for="password">Password</label>
+
+      <div class="password-wrapper">
+        <input 
+          type="password" 
+          id="password" 
+          name="password" 
+          required 
+          aria-required="true"
+        >
+        <button 
+          type="button" 
+          class="toggle-btn" 
+          aria-label="Toggle password visibility"
+        >
+          👁
+        </button>
+      </div>
+
+      <small class="error">Error message here</small>
+    </div>
+
+    <!-- Confirm Password -->
+    <div class="form-group">
+      <label for="confirm">Confirm Password</label>
+      <input 
+        type="password" 
+        id="confirm" 
+        name="confirm" 
+        required 
+        aria-required="true"
+      >
+      <small class="error">Error message here</small>
+    </div>
+
+    <!-- Checklist -->
+    <div class="checklist">
+      <p>Password must contain:</p>
+      <ul>
+        <li>✔ At least 8 characters</li>
+        <li>✔ One uppercase letter</li>
+        <li>✔ One number</li>
+      </ul>
+    </div>
+
+    <!-- Submit -->
+    <button type="submit" class="submit-btn">
+      Create Account
+    </button>
+
+  </form>
+</div>
+<script src="Page.js"></script>
+</body>
+</html>
